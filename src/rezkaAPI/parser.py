@@ -145,15 +145,6 @@ class Rezka:
         return info
 
     def get_links(self, url=None, search_filter="m3u", sub_filter=None):
-        """
-        Returns a list of links on successful search with the given filter.
-        Arguments:
-            search_filter - Content search filter from download logs
-                            Set to "m3u" by default
-            sub_filter - Search subfilter,
-                         Set to "mp4" by default if search filter is "m3u" or "m3u8"
-        """
-
         url = self.url if not url else url
         if not sub_filter and search_filter in ['m3u', 'm3u8']:
             sub_filter = "mp4"
