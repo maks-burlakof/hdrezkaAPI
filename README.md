@@ -13,31 +13,31 @@ pip install rezkaAPI
 ## Usage
 
 ```python
-from rezkaAPI import Rezka
+from rezkaAPI.parser import Rezka
 
-obj = Rezka("Breaking bad")
+movie = Rezka("Interstellar")
 
-obj.search()
+movie.search()
 # Allows you to search for content on the site
 # Returns a JSON object with search results
 
 result_id = 2
-obj.select_result(result_id)
+movie.select_result(result_id)
 # Allows you to select a search result by id
 # Returns the movie/series name on success
 
-obj.information()
+movie.information()
 # Get detailed information about a movie/series as JSON
 
-obj.get_links()
+movie.get_links()
 # Get streaming links
 
 # Access to class fields
-obj.search_request
-obj.name
-obj.url
-obj.search_results
-obj.info
+movie.search_request
+movie.name
+movie.url
+movie.search_results
+movie.info
 ```
 
 ## Contributing
