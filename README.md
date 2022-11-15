@@ -1,6 +1,8 @@
 # rezkaAPI
 
-<img src="https://img.shields.io/github/v/release/maks-burlakof/hdrezkaAPI?include_prereleases">
+![hdrezka-logo](https://user-images.githubusercontent.com/79749371/201967365-378a2222-e8bf-4b43-99c7-9d32cae9c1a5.png)
+
+![Release information](https://img.shields.io/github/v/release/maks-burlakof/hdrezkaAPI?include_prereleases "Release information")
 
 Python library for getting various information from the site [hdrezka.ag](https://hdrezka.ag/) and for interacting with it.
 
